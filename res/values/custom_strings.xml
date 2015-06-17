@@ -272,4 +272,10 @@
     <string name="ambient_display_show_battery_percent">Percent</string>
     <string name="ambient_display_show_battery_percent_summary">Show battery percent during pulse</string>
 
+    <!-- Pass swipe-up-to-unlock -->
+    <string name="lock_directly_show_password">Directly show password entry</string>
+    <string name="lock_directly_show_pattern">Directly show pattern view</string>
+    <string name="lock_directly_show_pin">Directly show PIN entry</string>
+    <string name="lock_directly_show_summary">Skip the swipe up to unlock screen when unlocking phone</string>
+
 </resources>
