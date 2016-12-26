@@ -57,9 +57,6 @@
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
 
-    <!-- Dev settings -->
-    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
-
     <!-- Phone info -->
     <string name="device_info_title">Phone info</string>
 
@@ -256,5 +253,10 @@
     <!-- Pin ripple -->
     <string name="lockscreen_pin_ripple_title">Pin Ripple</string>
     <string name="lockscreen_pin_ripple_summary">Disable to remove ripple when entering pin numbers</string>
+
+    <!-- Advanced settings (former: Developer options) -->
+    <string name="dev_advanced_settings_title">@string/advanced_section_header</string>
+    <string name="dev_advanced_settings_summary">For the experienced user</string>
+    <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
 
 </resources>
