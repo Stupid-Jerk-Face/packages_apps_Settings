@@ -261,4 +261,7 @@
 
     <!-- Weather -->
     <string name="weather_title">Weather</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
