@@ -259,4 +259,6 @@
     <string name="dev_advanced_settings_summary">For the experienced user</string>
     <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
 
+    <!-- Weather -->
+    <string name="weather_title">Weather</string>
 </resources>

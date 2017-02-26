@@ -137,6 +137,7 @@ import com.six.settings.fragments.FlingSettings;
 import com.six.settings.fragments.NavbarSettings;
 import com.six.settings.fragments.PulseSettings;
 import com.six.settings.fragments.SmartbarSettings;
+import com.six.settings.fragments.LockScreenWeatherSettings;
 
 public class SettingsGateway {
 
@@ -265,6 +266,7 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
+            LockScreenWeatherSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
