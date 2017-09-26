@@ -17,7 +17,47 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- LIQUID version -->
-    <string name="liquid_version">Nephilim version</string>
+   <!-- Nephilim Rom -->
+    <string name="six_settings_activity">Nephilim Settings</string>
+    <string name="six_settings_activity_summary">Additional ROM settings</string>
+    <string name="six_version">Nephilim version</string>
+ 
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor Version</string>
+    <string name="vendor_version_default">Unknown</string>
 
+    <!-- About SiX -->
+	<string name="six_about_title">Nephilim Center</string>
+	<string name="six_about_info">About ROM</string>
+	<string name="six_about_info_summary">OTA updates, changelog and extra links</string>
+	<string name="six_about_r3ds">Nephilim Official Developer</string>
+	<string name="six_about_r3ds_title">Frankie T (R3Ds)</string>
+	<string name="six_about_r3ds_summary">Owner, Maintainer, Themer, and Kanger</string>
+    <string name="six_links_title">Helpful Links</string>
+    <string name="six_pushbullet_title">Pushbullet Updates</string>
+	<string name="six_pushbullet_summary">Join for rom updates and news</string>
+	<string name="six_pushbullet_url">http://tinyurl.com/yaxf3asd</string>
+    <string name="six_github_title">Github Source</string>
+	<string name="six_github_summary">More info and build your own flavor</string>
+	<string name="six_github_url">https://github.com/NephilimRenown/changelog/blob/oreo/Changelog.md</string>
+	<string name="six_gplus_title">Google+ Community</string>
+	<string name="six_gplus_summary">Join for news and updates</string>
+	<string name="six_gplus_url">https://plus.google.com/u/0/communities/104401050580313496153</string>
+    <string name="six_info_browser_error">No Browser found! Please install one, thanks</string>
+    <string name="six_screens_title">Screenshots</string>
+	<string name="six_screens_summary">Screenshot collection</string>
+	<string name="six_screens_url">https://drive.google.com/drive/folders/0B3EKKJ3Wzt6LOVNGTnkxUmJPRjg?usp=sharing</string>
+    <string name="six_theme_title">Nephilim Theme</string>
+	<string name="six_theme_summary">Best oreo theme for nephilim rom</string>
+	<string name="six_theme_url">https://play.google.com/store/apps/details?id=com.r3ds.nephilim</string>
+    <string name="six_wallpapers_title">Wallpapers</string>
+	<string name="six_wallpapers_summary">Wallpaper collection</string>
+	<string name="six_wallpapers_url">https://drive.google.com/drive/folders/1rwdXZFFnIT2AK_TD3RL-STx6H2j7GDsp?usp=sharing</string>
+    <string name="six_credits_title">Thanks and Credits</string>
+    <string name="six_credits_summary">GaryC, Sting5566, Glockman4519, FuckedUpBigtime, TrOjAnUK, MikeyMopar, VicPerriera, RΞVΞN, Beanstown106, SNuzzo, wrongway213, TheDesolateOne, Cemilplt, BobAzzon, MikeP</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>

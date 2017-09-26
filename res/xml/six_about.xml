@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 SIXROM
+     Copyright (C) 2016 The Pure Nexus Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/six_about_title" >
+
+    <!-- SiX Header -->
+    <PreferenceScreen android:key="six_center"
+        android:layout="@layout/six_center">
+          <intent android:targetPackage="org.omnirom.games.eggs" 
+        android:action="android.intent.action.MAIN" 
+        android:targetClass="org.omnirom.games.eggs.StartingActivity" />
+        </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="category_six_about_info"
+        android:title="@string/six_about_info">
+
+    <!-- Changelog -->
+    <Preference 
+        android:key="sixrom_changelog"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary"
+        android:fragment="com.android.settings.six.Changelog" />
+
+    <!-- Github -->
+    <Preference
+        android:key="six_github"
+        android:title="@string/six_github_title"
+        android:summary="@string/six_github_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/six_github_url" />
+
+    </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="six_links"
+        android:title="@string/six_links_title">
+
+        <!-- Google+ -->
+        <Preference
+                android:key="six_gplus"
+                android:title="@string/six_gplus_title"
+                android:summary="@string/six_gplus_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/six_gplus_url" />
+        </Preference>
+
+        <!-- Pushbullet 
+        <Preference
+                android:key="six_pushbullet"
+                android:title="@string/six_pushbullet_title"
+                android:summary="@string/six_pushbullet_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/six_pushbullet_url" />
+        </Preference> -->
+				
+        <!-- Theme -->
+        <Preference
+                android:key="six_theme"
+                android:title="@string/six_theme_title"
+                android:summary="@string/six_theme_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/six_theme_url" />
+        </Preference>
+
+        <!-- Screens -->
+        <Preference
+                android:key="six_screens"
+                android:title="@string/six_screens_title"
+                android:summary="@string/six_screens_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/six_screens_url" />
+        </Preference>
+
+        <!-- Wallpapers -->
+        <Preference
+                android:key="six_wallpapers"
+                android:title="@string/six_wallpapers_title"
+                android:summary="@string/six_wallpapers_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/six_wallpapers_url" />
+        </Preference>
+	
+    </PreferenceCategory>
+
+    <!-- R3Ds -->
+    <PreferenceCategory
+        android:key="category_six_about_r3ds"
+        android:title="@string/six_about_r3ds">
+
+    <Preference
+        android:title="@string/six_about_r3ds_title"
+        android:summary="@string/six_about_r3ds_summary">
+     <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://plus.google.com/+FrankieTR3Ds" />
+    </Preference>
+
+    <Preference
+        android:title="@string/six_credits_title"
+        android:summary="@string/six_credits_summary" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

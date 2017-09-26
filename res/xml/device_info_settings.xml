@@ -16,12 +16,25 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
-		
+
+		<Preference
+		        android:key="six_logo"
+				android:layout="@layout/six_about_header" 
+				android:fragment="com.android.settings.six.SixAbout" />
+
 		<!-- Nephilim version -->
         <Preference
                 android:key="six_version"
                 android:title="@string/six_version"
                 android:summary="@string/device_info_default" />
+
+        <!-- Nephilim Center -->
+        <Preference 
+                android:key="six_info"
+                android:title="@string/six_about_info"
+                android:summary="@string/six_about_info_summary"
+                android:fragment="com.android.settings.six.SixInfo">
+        </Preference>
 
         <!-- System update settings - launches activity -->
         <Preference android:key="additional_system_update_settings"
