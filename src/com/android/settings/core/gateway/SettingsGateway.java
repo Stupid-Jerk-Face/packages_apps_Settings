@@ -131,8 +131,8 @@ import com.android.settings.wifi.WifiAPITest;
 import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
-
 import com.six.settings.SixSettings;
+import com.six.settings.fragments.HeadsUpSettings;
 
 public class SettingsGateway {
 
@@ -256,6 +256,7 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
 			SixSettings.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
