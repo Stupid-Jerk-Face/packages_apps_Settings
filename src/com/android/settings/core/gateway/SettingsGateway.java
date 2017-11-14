@@ -133,6 +133,10 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.six.settings.SixSettings;
 import com.six.settings.fragments.HeadsUpSettings;
+import com.six.settings.fragments.FlingSettings;
+import com.six.settings.fragments.NavbarSettings;
+import com.six.settings.fragments.PulseSettings;
+import com.six.settings.fragments.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -257,6 +261,10 @@ public class SettingsGateway {
             DataUsageList.class.getName(),
 			SixSettings.class.getName(),
             HeadsUpSettings.class.getName(),
+            NavbarSettings.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -297,5 +305,9 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
 			// SiXROM settings
 			Settings.SixSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
