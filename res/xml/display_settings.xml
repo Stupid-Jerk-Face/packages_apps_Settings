@@ -74,6 +74,20 @@
         android:title="@string/power_menu_expanded_desktop"
         android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
 
+    <com.six.settings.preferences.SystemSettingSwitchPreference
+        android:key="enable_conditions"
+        android:title="@string/dashboard_conditions_title"
+        android:summaryOn="@string/summary_dashboard_conditions_enabled"
+        android:summaryOff="@string/summary_dashboard_conditions_disabled"
+        android:defaultValue="true" />
+
+    <com.six.settings.preferences.SystemSettingSwitchPreference
+        android:key="enable_suggestions"
+        android:title="@string/dashboard_suggestions_title"
+        android:summaryOn="@string/summary_dashboard_suggestions_enabled"
+        android:summaryOff="@string/summary_dashboard_suggestions_disabled"
+        android:defaultValue="true" />
+
     <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
@@ -131,19 +145,5 @@
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
-
-    <com.six.settings.preferences.SystemSettingSwitchPreference
-        android:key="enable_conditions"
-        android:title="@string/dashboard_conditions_title"
-        android:summaryOn="@string/summary_dashboard_conditions_enabled"
-        android:summaryOff="@string/summary_dashboard_conditions_disabled"
-        android:defaultValue="true" />
-
-    <com.six.settings.preferences.SystemSettingSwitchPreference
-        android:key="enable_suggestions"
-        android:title="@string/dashboard_suggestions_title"
-        android:summaryOn="@string/summary_dashboard_suggestions_enabled"
-        android:summaryOff="@string/summary_dashboard_suggestions_disabled"
-        android:defaultValue="true" />
 
 </PreferenceScreen>
