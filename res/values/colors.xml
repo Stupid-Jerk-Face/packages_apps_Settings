@@ -59,7 +59,7 @@
     <color name="sim_noitification">@*android:color/material_deep_teal_500</color>
 
     <color name="confirm_device_credential_transparent_black">#60000000</color>
-    <color name="voice_interaction_highlight">#33b5e5</color>
+    <color name="voice_interaction_highlight">#4285f4</color>
 
     <drawable name="fp_enrollment_header_landscape">#009688</drawable>
 
