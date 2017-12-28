@@ -253,4 +253,8 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
+    <!-- Pin ripple -->
+    <string name="lockscreen_pin_ripple_title">Pin Ripple</string>
+    <string name="lockscreen_pin_ripple_summary">Disable to remove ripple when entering pin numbers</string>
+
 </resources>
