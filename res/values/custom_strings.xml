@@ -288,4 +288,16 @@
 
     <!-- Ambient cat -->
     <string name="ambient_display_what_to_show">What to show</string>
+
+    <!-- Color manager -->
+    <string name="color_manager_title">Color manager</string>
+    <string name="color_manager_summary">Change system colors with various theme modes</string>
+    <string name="theme_auto_title">Automatic</string>
+    <string name="theme_auto_title_summary">Themes the system based on chosen wallpaper</string>
+    <string name="theme_light_title">Light</string>
+    <string name="theme_light_title_summary">Themes the system to white</string>
+    <string name="theme_dark_title">Dark</string>
+    <string name="theme_dark_title_summary">Themes the system to dark grey</string>
+    <string name="device_accent_title">Device accent</string>
+
 </resources>
