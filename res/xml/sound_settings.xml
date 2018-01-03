@@ -60,7 +60,7 @@
                 android:title="@string/vibrate_when_ringing_title" />
 
         <!-- Increasing ring -->
-        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
                 android:key="increasing_ring"
                 android:defaultValue="false"
                 android:title="@string/increasing_ring_volume_option_title" />
@@ -75,7 +75,7 @@
         <Preference
                 android:key="volume_steps"
                 android:title="@string/volume_steps_title"
-                android:fragment="com.android.settings.liquid.VolumeSteps" />
+                android:fragment="com.android.settings.six.VolumeSteps" />
 
         <!-- Interruptions -->
         <com.android.settingslib.RestrictedPreference

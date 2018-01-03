@@ -18,12 +18,15 @@ package com.android.settings.deviceinfo;
 import android.content.Context;
 import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
+import android.text.TextUtils;
 
-import com.android.settings.core.PreferenceController;
 import com.android.settings.R;
-import com.android.settings.Utils;
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
 
-public class SixVersionPreferenceController extends PreferenceController {
+public class SixVersionPreferenceController extends AbstractPreferenceController implements
+        PreferenceControllerMixin {
 
     private static final String SIX_VERSION = "six_version";
     private static final String SIX_PROP = "ro.six.version";

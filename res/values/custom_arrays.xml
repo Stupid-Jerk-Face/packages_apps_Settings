@@ -18,7 +18,7 @@
 <resources>
 
     <!-- App ops categories -->
-    <string-array name="app_ops_categories_liquid" translatable="false">
+    <string-array name="app_ops_categories_six" translatable="false">
         <item>@string/app_ops_cat_location</item>
         <item>@string/app_ops_cat_personal</item>
         <item>@string/app_ops_cat_messaging</item>
@@ -28,7 +28,7 @@
     </string-array>
 
     <!-- App ops labels -->
-    <string-array name="app_ops_labels_liquid" translatable="false">
+    <string-array name="app_ops_labels_six" translatable="false">
         <!-- OP_COARSE_LOCATION -->
         <item>@string/app_ops_access_location</item>
         <!-- OP_FINE_LOCATION -->

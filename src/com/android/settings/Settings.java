@@ -192,8 +192,8 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
-	// LiquidRemix settings
-    public static class LiquidLoungeSettingsActivity extends SettingsActivity {}
+	// SiXROM settings
+    public static class SixSettingsActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity {}
     public static class NavigationSettingsActivity extends SettingsActivity {}
     public static class FlingSettingsActivity extends SettingsActivity {}
