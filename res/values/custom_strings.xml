@@ -57,8 +57,8 @@
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
 
-    <!-- Phone info -->
-    <string name="device_info_title">Phone info</string>
+    <!-- Phone info
+    <string name="device_info_title">Phone info</string> -->
 
     <!-- Dashboard conditions -->
     <string name="dashboard_conditions_title">Dashboard conditions</string>
