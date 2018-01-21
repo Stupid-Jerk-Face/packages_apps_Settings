@@ -281,4 +281,11 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three fingers to take a screenshot</string>
+
+    <!-- Ambient for media -->
+    <string name="force_ambient_for_media_title">Show Ambient on new track</string>
+    <string name="force_ambient_for_media_summary">Show an Ambient Display notification when a new track is being played</string>
+
+    <!-- Ambient cat -->
+    <string name="ambient_display_what_to_show">What to show</string>
 </resources>
