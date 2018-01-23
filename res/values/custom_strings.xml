@@ -313,4 +313,8 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Theme applied toast -->
+    <string name="theme_applied_toast">Theme applied.</string>
+    <string name="applying_theme_toast">Applying theme, please wait...</string>
 </resources>

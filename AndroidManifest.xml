@@ -2123,6 +2123,7 @@
 
         <activity android:name="ActivityPicker"
                 android:label="@string/activity_picker_label"
+                android:theme="@*android:style/Theme.DeviceDefault.Light.Dialog.Alert"
                 android:finishOnCloseSystemDialogs="true">
             <intent-filter android:priority="1">
                 <action android:name="android.intent.action.PICK_ACTIVITY" />
@@ -3348,6 +3349,18 @@
                 android:value="com.six.settings.fragments.HeadsUpSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
+        </activity>
+
+        <!-- Color settings activity. -->
+        <activity android:name="Settings$ColorSettingsActivity"
+                android:label="@string/color_manager_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.aoscp.display.ColorManagerFragment" />
         </activity>
 
         <!-- Global navbar settings -->

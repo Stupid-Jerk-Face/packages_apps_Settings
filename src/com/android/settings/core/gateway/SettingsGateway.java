@@ -139,6 +139,7 @@ import com.six.settings.fragments.NavbarSettings;
 import com.six.settings.fragments.PulseSettings;
 import com.six.settings.fragments.SmartbarSettings;
 import com.six.settings.fragments.LockScreenWeatherSettings;
+import com.android.settings.aoscp.display.ColorManagerFragment;
 
 public class SettingsGateway {
 
@@ -269,6 +270,7 @@ public class SettingsGateway {
             PulseSettings.class.getName(),
             LockScreenWeatherSettings.class.getName(),
             RunningServices.class.getName(),
+            ColorManagerFragment.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
