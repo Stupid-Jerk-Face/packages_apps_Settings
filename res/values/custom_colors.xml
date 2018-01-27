@@ -27,4 +27,9 @@
     <color name="expanded_button_color_close">#F44336</color>
     <color name="expanded_accent_color_six">@*android:color/material_deep_teal_500</color>
 
+    <!-- Suggestion/condition colors -->
+    <color name="suggestion_tile_background">@*android:color/white</color>
+    <color name="suggestion_title_text_color">@*android:color/black</color>
+    <color name="suggestion_summary_text_color">@*android:color/black</color>
+
 </resources>
